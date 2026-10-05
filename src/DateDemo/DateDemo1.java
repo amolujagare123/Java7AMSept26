@@ -7,6 +7,8 @@ public class DateDemo1 {
 
     public static void main(String[] args) {
 
+        // Date to String
+
         Date date = new Date();
         System.out.println(date);
 
