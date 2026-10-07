@@ -1,9 +1,9 @@
-package ClassesNConstructors;
+package ClassesNConstructors.pack1;
 
-public class MyClass2 {
-    int a;
-    double d;
-    char c;
+public class Java1 {
+   public int a;
+   private double d;
+   protected char c;
     String str; // data members
 
     void display()
@@ -14,27 +14,14 @@ public class MyClass2 {
         System.out.println("str="+str);
     }
 
-   /* MyClass2()
-    {
-
-    }*/
-
-    MyClass2()
-    {
-       a = 111;
-       d = 11.22;
-       c = 'h';
-       str = "Java";
-    }
-
     public static void main(String[] args) {
 
-
-
-        MyClass2 ob = new MyClass2();
-
+        Java1 ob = new Java1();
+        ob.a = 10;
+        ob.d = 34.66;
+        ob.c = 'h';
+        ob.str = "amol";
         ob.display();
-
     }
 
 

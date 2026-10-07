@@ -1,6 +1,6 @@
 package ClassesNConstructors;
 
-public class MyClass2 {
+public class MyClass3 {
     int a;
     double d;
     char c;
@@ -14,24 +14,20 @@ public class MyClass2 {
         System.out.println("str="+str);
     }
 
-   /* MyClass2()
+    // Parameterized constructor
+    MyClass3(int a1,double d1,char c1,String str1)
     {
-
-    }*/
-
-    MyClass2()
-    {
-       a = 111;
-       d = 11.22;
-       c = 'h';
-       str = "Java";
+       a = a1;
+       d = d1;
+       c = c1;
+       str = str1;
     }
 
     public static void main(String[] args) {
 
 
 
-        MyClass2 ob = new MyClass2();
+        MyClass3 ob = new MyClass3(12,34.56,'h',"amol");
 
         ob.display();
 

@@ -1,6 +1,6 @@
 package ClassesNConstructors;
 
-public class MyClass2 {
+public class MyClass4 {
     int a;
     double d;
     char c;
@@ -14,24 +14,20 @@ public class MyClass2 {
         System.out.println("str="+str);
     }
 
-   /* MyClass2()
+    // Parameterized constructor with this operator
+    MyClass4(int a, double d, char c, String str)
     {
-
-    }*/
-
-    MyClass2()
-    {
-       a = 111;
-       d = 11.22;
-       c = 'h';
-       str = "Java";
+        this.a = a;
+        this.d = d;
+        this.c = c;
+        this.str = str;
     }
 
     public static void main(String[] args) {
 
 
 
-        MyClass2 ob = new MyClass2();
+        MyClass4 ob = new MyClass4(12,34.56,'h',"amol");
 
         ob.display();
 
