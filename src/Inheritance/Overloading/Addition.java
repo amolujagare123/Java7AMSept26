@@ -32,6 +32,13 @@ public class Addition {
         System.out.println("c="+c);
     }
 
+    void add(int z, double x, double y)
+    {
+        double c;
+        c = x + y + z;
+        System.out.println("c="+c);
+    }
+
     void add(String x, String y)
     {
         String c;
