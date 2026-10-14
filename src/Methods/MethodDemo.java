@@ -2,6 +2,7 @@ package Methods;
 
 public class MethodDemo {
 
+
     void printMyArray(int[] arr)
     {
         System.out.println("this is the array");
@@ -28,5 +29,10 @@ public class MethodDemo {
         int[] a = {12,34,67,9,0,11};
 
         ob.printMyArray(a);
+
+        final int[] arr = {1,2};
+
+        arr[0] = 5; // refrence is fix , value can change
+
     }
 }
