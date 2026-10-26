@@ -35,5 +35,12 @@ public class Conversions {
             System.out.println("this is true");
         else
             System.out.println("this is false");
+
+
+        String s6 = "s";
+
+        char ch = s6.charAt(0);
+
+        System.out.println("ch="+ch);
     }
 }
